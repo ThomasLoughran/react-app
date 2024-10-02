@@ -20,7 +20,7 @@ jobs:
            id: meta
            uses: docker/metadata-action@v4
            with:
-              images: { YOUR_DOCKER_HUB_USERNAME_HERE }/react-site
+              images: emman038/react-site
 
          - name: Build and push Docker image
            uses: docker/build-push-action@v3
